@@ -29,7 +29,7 @@
             android:textSize="20sp"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="15dp"/>
-        <EditText
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/first_name"
@@ -41,6 +41,16 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/middle_name"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="40dp"
@@ -48,6 +58,14 @@
 
         />
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"/>
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/last_name"
@@ -59,6 +77,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/email_address"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="40dp"
@@ -66,6 +92,13 @@
 
         />
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PASSWORD"
@@ -77,12 +110,26 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="CONFIRM PASSWORD"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="40dp"
         android:textSize="20sp"
 
         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"/>
 
 
     <Button
@@ -92,6 +139,6 @@
         android:layout_marginTop="50dp"
         android:text="@string/save"
         android:textColor="@color/colorPrimaryDark"
-        android:background="@color/colorPrimary"/>
+        android:background="@drawable/buton"/>
 </LinearLayout>
 </ScrollView>

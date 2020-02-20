@@ -6,4 +6,9 @@
     <string name="dob">dob</string>
     <string name="save">save</string>
     <string name="email_address">EMAIL ADDRESS</string>
+    <string name="textview">LOGIN</string>
+    <string name="usernname">USERNNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="name">name</string>
+    <string name="sign_up">SIGN UP</string>
 </resources>
