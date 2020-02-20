@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">layouts</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="middle_name">Middle name</string>
+    <string name="dob">dob</string>
+    <string name="save">save</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+</resources>
