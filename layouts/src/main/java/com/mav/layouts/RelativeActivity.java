@@ -20,9 +20,9 @@ public class RelativeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_relative);
 
-        eT1.findViewById(R.id.eT1);
-        t4.findViewById(R.id.t4);
-        b2.findViewById(R.id.b2);
+        eT1=findViewById(R.id.eT1);
+        t4=findViewById(R.id.t4);
+        b2=findViewById(R.id.b2);
 
        b2.setOnClickListener(new View.OnClickListener() {
             @Override
