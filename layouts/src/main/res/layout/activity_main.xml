@@ -45,6 +45,7 @@
         android:layout_marginTop="9dp"
         android:textSize="20sp"
         android:background="@drawable/edittext"
+        android:id="@+id/fn"
 
 
         />
@@ -63,7 +64,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="9dp"
         android:textSize="20sp"
-        android:background="@drawable/edittext"/>
+        android:background="@drawable/edittext"
+        android:id="@+id/mn"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -80,7 +82,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="9dp"
         android:textSize="20sp"
-        android:background="@drawable/edittext"/>
+        android:background="@drawable/edittext"
+        android:id="@+id/ln"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -97,7 +100,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="9dp"
         android:textSize="20sp"
-        android:background="@drawable/edittext"/>
+        android:background="@drawable/edittext"
+        android:id="@+id/em"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,7 +117,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="9dp"
         android:textSize="20sp"
-        android:background="@drawable/edittext"/>
+        android:background="@drawable/edittext"
+        android:id="@+id/pd"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -129,7 +134,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="9dp"
         android:textSize="20sp"
-        android:background="@drawable/edittext"/>
+        android:background="@drawable/edittext"
+        android:id="@+id/cpd"/>
 
 
     <Button
@@ -139,6 +145,7 @@
         android:layout_marginTop="50dp"
         android:text="@string/save"
         android:textColor="@color/colorPrimaryDark"
-        android:background="@drawable/buton"/>
+        android:background="@drawable/buton"
+        android:id="@+id/button"/>
 </LinearLayout>
 </ScrollView>
