@@ -23,13 +23,26 @@ public class LoginActivity extends AppCompatActivity {
         epassword=findViewById(R.id.epassword);
         textView5=findViewById(R.id.textView5);
         button=findViewById(R.id.button);
+button.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent=new Intent(LoginActivity.this,RelativeActivity.class);
+        startActivity(intent);
+    }
+});
+        textView5.setOnClickListener(new View.OnClickListener(){
 
-        textView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Bundle bundle=new Bundle();
+                bundle.putString("callFrom","LoginActivity");
+
                 Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+                intent.putExtras(bundle);
                 startActivity(intent);
             }
+
         });
     }
 }
